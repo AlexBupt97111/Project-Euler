@@ -3,18 +3,18 @@ Fi = 0
 while a <= 4000000: 
     if a % 2 == 0:
         Fi += a 
-    a, b = b, a+b  # the real formula for Fibonacci sequence 
+    a, b = b, a+b #the real formula for Fibonacci sequence 
 
 print(Fi)
 
 
 #def fibonacci(n): #recursive, n - sequence number of element which we want to see
    #if n in (1, 2):
-        #return 1#because second element of Fibonaacci sequence =1
+        #return 1 #because second element of Fibonaacci sequence =1
     #return fibonacci(n - 1) + fibonacci(n - 2)
 
 
-#print(fibonacci(3))#third element of Fibonacci sequence (1 1 2 3), third = 2
+#print(fibonacci(3)) #third element of Fibonacci sequence (1 1 2 3), third = 2
 
 #Допустим, n = 4. Тогда произойдет рекурсивный вызов fibonacci(3) и fibonacci(2).
 #Второй вернет единицу, а первый приведет к еще двум вызовам функции:
