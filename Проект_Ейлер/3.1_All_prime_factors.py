@@ -1,6 +1,6 @@
 def factorize_number(x): 
  divisor=2 
- while x>1:#while x more than 1
+ while x>1: #while x more than 1
   if x % divisor==0:
       x//=divisor
       print(divisor) 
